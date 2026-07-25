@@ -1,0 +1,39 @@
+# Binários compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binários de debug do Delve/VS Code (ex.: __debug_bin.exe123456)
+__debug_bin*
+
+# Binário de teste (go test -c) e saídas de cobertura
+*.test
+*.out
+coverage.*
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependências (descomente se for "vendorizar")
+# vendor/
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+!.env.example
+
+# Configs de IDE (evita vazar credenciais de dev, ex.: .vscode/launch.json)
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de SO
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+tmp/
